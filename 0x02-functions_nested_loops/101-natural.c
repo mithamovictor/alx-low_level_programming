@@ -3,11 +3,11 @@
 #include <math.h>
 
 /**
- * natural_numbers - main function
+ * main - main function
  * Description: Print the sum of all multiples of 3 or 5 below 1024.
  * Return: 0
  */
-int natural_numbers(void)
+int main(void)
 {
 	int i = 1;
 	int total = 0;
