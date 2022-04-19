@@ -3,7 +3,7 @@
  * print_alphabet_x10 - Print alphabet in lowercase 10 times
  * Return: 0
  */
-void print_alphabet_ten_times(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 	char c;
@@ -19,5 +19,4 @@ void print_alphabet_ten_times(void)
 		_putchar('\n');
 		i++;
 	}
-	return (0);
 }
