@@ -27,7 +27,7 @@ int _helper(int c, int i)
 	if (square == c)
 		return (i);
 	else if (square < c)
-		return (halp(c, i + 1));
+		return (_helper(c, i + 1));
 	else
 		return (-1);
 }
